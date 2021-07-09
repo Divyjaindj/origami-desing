@@ -1,0 +1,61 @@
+*{
+	background-color: skyblue;
+font-family: ubuntu;
+background-repeat: no-repeat;
+
+
+
+}
+
+.header{
+background-size: cover;
+}
+
+.header p{
+	color: ghostwhite;
+}
+
+
+.main{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+.camel{
+	position: relative;
+}
+
+.camel p{
+position: absolute;
+opacity: 0;
+}
+
+.camel:hover img{
+
+opacity: 0.5;
+}
+
+.camel:hover p{
+	opacity: 1;
+}
+
+
+
+
+
+
+a:link{
+	color: coral;
+	
+}
+
+a:visited{
+	color: aquamarine;
+}
+a:hover{
+	color: cornsilk;
+}
